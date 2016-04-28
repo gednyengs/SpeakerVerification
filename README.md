@@ -3,6 +3,8 @@ Speaker Verification system implemented in JAVA.
 
 This speaker verification system uses mel-frequency cepstral coefficients (MFCC) and a Dynamic Time Warping (DTW) algorithm to compute and compare voice features of an enrolled user to those of a user seeking verification.
 
+Note: Currently, this system is sensitive to the loudness of a voice and ambient environment. Alsothe system is text-dependent (same phrase used to enroll must be used during verification).
+
 # Usage
 
 To be able to properly use this speaker verification system,
