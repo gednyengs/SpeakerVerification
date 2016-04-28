@@ -18,5 +18,7 @@ If the recorded sequence is available only as an IEE single-precision floating-p
 3. Get voice features from the signal. This can done in the following manner:
 **`edu.gatech.team4180.dsp.SpeakerFeatures reference = new edu.gatech.team4180.dsp.SpeakerFeatures(your double array containing samples of the voice signal);`**
 4. Convert the obtained features into a format that can easily be saved into a file.
-This can be done by calling: **`double[] savable_format = reference.toStorableArray();`**
+This can be done by calling: **`double[] savable_format = reference.toStorableArray();`** where `reference` was obtained from Step 3. 
+5. Store the resulting feature array into a file.
 
+Note: The feature array returned from Step 4 contains the features of the voice and some important metadata.
