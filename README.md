@@ -15,5 +15,6 @@ device capable of producing PCM-encoded signal streams.
 1. Capture user's ID or any other form of identification that can easily be associated with the user's voice features
 2. Record user's voice and retrieve the audio data as an IEEE double-precision floating-point array
 If the recorded sequence is available only as an IEE single-precision floating-point array (float), then one must convert this array to a double array. **This can be accomplished by calling `edu.gatech.team4180.dsp.DSP.float_to_double_array(your float array)`**
-3. Get voice features from the signal. This can done in the following manner: **`edu.gatech.team4180.dsp.SpeakerFeatures reference = new edu.gatech.team4180.dsp.SpeakerFeatures(your double array containing samples of the voice signal);`**
+3. Get voice features from the signal. This can done in the following manner:
+**`edu.gatech.team4180.dsp.SpeakerFeatures reference = new edu.gatech.team4180.dsp.SpeakerFeatures(your double array containing samples of the voice signal);`**
 
