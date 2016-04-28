@@ -1,7 +1,7 @@
 # SpeakerVerification
 Speaker Verification system implemented in JAVA.
 
-This speaker verification system uses mel-frequency cepstral coefficients (MFCC) and a Dynamic Time Warping algorithm to compute and compare features of an enrolled user to those of a user seeking verification.
+This speaker verification system uses mel-frequency cepstral coefficients (MFCC) and a Dynamic Time Warping (DTW) algorithm to compute and compare voice features of an enrolled user to those of a user seeking verification.
 
 # Usage
 
@@ -12,5 +12,7 @@ device capable of producing PCM-encoded signal streams.
       sequences of the sampled voice or IEEE double sequences.**
 
 ## Enrollment
-
+1. Capture user's ID or any other form of identification that can easily be associated with the user's voice features
+2. Record user's voice and retrieve the audio data as an IEEE double-precision floating-point array
+..* if the recorded sequence is available only as an IEE single-precision floating-point array (float), then one must convert this array to a double array. **This can be accomplished by calling edu.gatech.team4180.dsp.DSP.float_to_double_array(your float array)**
 
