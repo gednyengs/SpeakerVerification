@@ -1,5 +1,7 @@
 # SpeakerVerification
-Speaker Verification system implemented in JAVA
+Speaker Verification system implemented in JAVA.
+
+This speaker verification system uses mel-frequency cepstral coefficients (MFCC) and a Dynamic Time Warping algorithm to compute and compare features of an enrolled user to those of a user seeking verification.
 
 # Usage
 
