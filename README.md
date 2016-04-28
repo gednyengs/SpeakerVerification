@@ -30,3 +30,8 @@ If the recorded sequence is available only as an IEE single-precision floating-p
 3. Get voice features from the signal. This can done in the following manner:
 **`edu.gatech.team4180.dsp.SpeakerFeatures test = new edu.gatech.team4180.dsp.SpeakerFeatures(your double array containing samples of the voice signal);`**
 4. Load the reference features. This can be accomplished by first reading the saved features from the file to a double array; then use the overloaded constructor of the SpeechFeatures class to reconstruct the features from the array. `edu.gatech.team4180.dsp.SpeakerFeatures reference = new edu.gatech.team4180.dsp.SpeakerFeatures(array of features saved into the file)`
+5. Compare the two feature sets. This can be done by calling `reference.compare(test)`. To learn about how to change the dissimilarity threshold value used in comparing the two feature sets, please refer to the documentation.
+
+
+
+For further questions/suggestions/comments, please contact me at nyengele@gatech.edu.
