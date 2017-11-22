@@ -36,4 +36,4 @@ If the recorded sequence is available only as an IEE single-precision floating-p
 
 
 
-For further questions/suggestions/comments, please contact me at nyengele@gatech.edu.
+For further questions/suggestions/comments, please contact me at nyengele@stanford.edu.
